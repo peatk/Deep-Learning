@@ -12,12 +12,12 @@ Results: Using bulleted lists and images to support your answers, address the fo
 What variable is the target for your model?
   - The target variable (y) for the experiment is the IS_SUCCESSFUL
 
-![Alt Text]()
+![Alt Text](https://github.com/peatk/Deep-Learning/blob/main/images/target.png)
 
 What variable(s) are the features for your model?
  - The feature variables (X) for the experiment are: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT
 
-![Alt Text]()
+![Alt Text](https://github.com/peatk/Deep-Learning/blob/main/images/features.png)
 
 What variable should be removed from the input data because they are neither targets nor features?
  - The EIN and NAME features were initally removed to aid the model
@@ -34,14 +34,18 @@ What steps did you take in your attempts to increase model performance?
 Initially, I reintroduced the "NAMES" column into my model as a starting point. I experimented with various configurations, starting with my previous settings of 9 layers with 18 neurons, and applied binning to names with thresholds set at < 10 and then < 5. Observing a greater percentage increase with the < 5 threshold, I retained this approach. Subsequently, I iteratively adjusted the layers, neurons, and activation functions. Ultimately, I achieved a 79.2% accuracy across three distinct models:
 ##### A two-layer model with 10 and 20 neurons respectively, utilizing ReLU activation
 
-![Alt Text]()
+![Alt Text](https://github.com/peatk/Deep-Learning/blob/main/images/opt1.1.png)
+![Alt Text](https://github.com/peatk/Deep-Learning/blob/main/images/opt1.2.png)
 
 ##### A two-layer model with 10 and 20 neurons respectively, utilizing tanh activation
 
-![Alt Text]()
+![Alt Text](https://github.com/peatk/Deep-Learning/blob/main/images/opt2.1.png)
+![Alt Text](https://github.com/peatk/Deep-Learning/blob/main/images/opt2.2.png)
 
 ##### A three-layer model with 15, 30, and 45 neurons respectively, using tanh, tanh, and ReLU activation functions
 
-![Alt Text]()
+![Alt Text](https://github.com/peatk/Deep-Learning/blob/main/images/opt3.1.png)
+![Alt Text](https://github.com/peatk/Deep-Learning/blob/main/images/opt3.2.png)
 
-Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+
+Summary: Overall, the deep learning model successfully achieved the desired performance threshold of 75% accuracy, reaching an impressive accuracy rate of 79.2%. However, the optimization process involved several trial-and-error iterations to fine-tune the model. While the final model architecture yielded satisfactory results, further exploration could involve experimenting with increasing or decreasing the values of each bins, different activation fucntions, or increasing the number of epochs
