@@ -10,8 +10,8 @@ Results: Using bulleted lists and images to support your answers, address the fo
 
 #### Data Preprocessing
 
-What variable is the target for your model? 
-1) The target variable (y) for the experiment is the IS_SUCCESSFUL
+What variable is the target for your model?
+  - The target variable (y) for the experiment is the IS_SUCCESSFUL
 
 What variable(s) are the features for your model?
   The feature variables (X) for the experiment are: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT
