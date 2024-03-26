@@ -12,8 +12,12 @@ Results: Using bulleted lists and images to support your answers, address the fo
 What variable is the target for your model?
   - The target variable (y) for the experiment is the IS_SUCCESSFUL
 
+![Alt Text]()
+
 What variable(s) are the features for your model?
  - The feature variables (X) for the experiment are: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT
+
+![Alt Text]()
 
 What variable should be removed from the input data because they are neither targets nor features?
  - The EIN and NAME features were initally removed to aid the model
@@ -28,8 +32,16 @@ Were you able to achieve the target model performance?
 
 What steps did you take in your attempts to increase model performance?
 Initially, I reintroduced the "NAMES" column into my model as a starting point. I experimented with various configurations, starting with my previous settings of 9 layers with 18 neurons, and applied binning to names with thresholds set at < 10 and then < 5. Observing a greater percentage increase with the < 5 threshold, I retained this approach. Subsequently, I iteratively adjusted the layers, neurons, and activation functions. Ultimately, I achieved a 79.2% accuracy across three distinct models:
-  - A two-layer model with 10 and 20 neurons respectively, utilizing ReLU activation.
-  - A two-layer model with 10 and 20 neurons respectively, utilizing tanh activation.
-  - A three-layer model with 15, 30, and 45 neurons respectively, using tanh, tanh, and ReLU activation functions.
+##### A two-layer model with 10 and 20 neurons respectively, utilizing ReLU activation
+
+![Alt Text]()
+
+##### A two-layer model with 10 and 20 neurons respectively, utilizing tanh activation
+
+![Alt Text]()
+
+##### A three-layer model with 15, 30, and 45 neurons respectively, using tanh, tanh, and ReLU activation functions
+
+![Alt Text]()
 
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
