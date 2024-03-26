@@ -11,13 +11,13 @@ Results: Using bulleted lists and images to support your answers, address the fo
 #### Data Preprocessing
 
 What variable is the target for your model? 
->The target variable (y) for the experiment is the IS_SUCCESSFUL
+  The target variable (y) for the experiment is the IS_SUCCESSFUL
 
 What variable(s) are the features for your model?
->The feature variables (X) for the experiment are: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT
+  The feature variables (X) for the experiment are: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT
 
 What variable should be removed from the input data because they are neither targets nor features?
->The EIN and NAME features were initally removed to aid the model
+  The EIN and NAME features were initally removed to aid the model
 
 #### Compiling, Training, and Evaluating the Model
 
